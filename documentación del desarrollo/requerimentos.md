@@ -11,7 +11,7 @@
 * Debe calcular automáticamente el precio total del pedido.
 
 ### 3 - Gestión de Ingredientes y Stock
-* Debe permitir la gestión de inventario** de ingredientes y productos utilizados en la preparación de los platos.
+* Debe permitir la gestión de inventario de ingredientes y productos utilizados en la preparación de los platos.
 * Debe realizar un seguimiento del stock actual de ingredientes.
 * Debe generar alertas cuando los niveles de inventario sean bajos.
 
@@ -37,4 +37,5 @@
 ### 1 - Interfaz de Usuario Intuitiva
 * Debe contar con una interfaz de usuario amigable y fácil de usar para el personal de la cocina económica.
 * Se construirá la interfaz de usuario utilizando Java Swing o JavaFX.
+
 * Se diseñarán las pantallas y formularios para la gestión de productos, ventas, reportes y otras funcionalidades.
