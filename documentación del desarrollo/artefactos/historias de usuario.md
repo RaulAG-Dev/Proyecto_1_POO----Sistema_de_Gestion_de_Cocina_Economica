@@ -68,7 +68,7 @@ Como empleado o administrador, quiero registrar información de contacto y prefe
 - El sistema valida que los campos obligatorios estén completos.
 
 #### HU-10:
-Como empleado o administrador, quiero poder crear y mantener registros de clientes habituales, para tener un historial actualizado de los clientes frecuentes.
+Como empleado o administrador, quiero qué el sistema creee automaticamente un registro de clientes habituales, para tener un historial actualizado de los clientes frecuentes.
 #### Criterios de aceptación:
 - Se pueden agregar, editar o eliminar registros de clientes.
 - El sistema permite visualizar la lista de clientes habituales.
@@ -85,3 +85,4 @@ Como administrador, quiero obtener un informe de los platos más vendidos, para 
 #### Criterios de aceptación:
 - El sistema ordena los platos por frecuencia de venta.
 - El reporte muestra la cantidad vendida y porcentaje de participación.
+
