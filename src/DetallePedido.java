@@ -27,6 +27,6 @@ public class DetallePedido {
 
     @Override
     public String toString() {
-        return platillo.getNombre() + " x " + cantidad + "$" + getSubTotal();
+        return platillo.getNombre() + " x" + cantidad + " $" + getSubTotal();
     }
 }
