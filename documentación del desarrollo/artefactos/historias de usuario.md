@@ -78,7 +78,7 @@ Como empleado o administrador, quiero qué el sistema creee automaticamente un r
 Como administrador, quiero generar reportes diarios, semanales y mensuales de ventas y ganancias, para analizar el rendimiento económico de la cocina.
 #### Criterios de aceptación:
 - Los reportes incluyen fecha, cantidad de ventas y ganancia total.
-- Se pueden exportar en formato PDF o Excel.
+
 
 #### HU-13:
 Como administrador, quiero obtener un informe de los platos más vendidos, para identificar cuáles son los más populares y ajustar el menú en consecuencia.
