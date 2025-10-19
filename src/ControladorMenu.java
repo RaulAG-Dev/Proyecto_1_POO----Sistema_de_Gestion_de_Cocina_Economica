@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Controlador {
+public class ControladorMenu {
 
     ArrayList<Platillo> menu = new ArrayList<>();
     Scanner scan = new Scanner(System.in);
@@ -30,6 +30,7 @@ public class Controlador {
                 System.out.println("[3] Editar descripción");
                 System.out.println("[4] Eliminar platillo");
                 int opcion = scan.nextInt();
+                scan.nextLine();
                 switch (opcion){
                     case 1:
                         plato.setNombre(scan);

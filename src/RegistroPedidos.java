@@ -2,11 +2,11 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class RegistroPedidos {
-    private Controlador controlador;
+    private ControladorMenu controlador;
     private Pedidos pedidos;
     private Scanner scan;
 
-    public RegistroPedidos(Controlador controlador) {
+    public RegistroPedidos(ControladorMenu controlador) {
         this.controlador = controlador;
         this.pedidos = new Pedidos();
         this.scan = new Scanner(System.in);
