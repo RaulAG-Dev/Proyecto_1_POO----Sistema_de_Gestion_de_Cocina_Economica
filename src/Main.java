@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        boolean salir = false;
         Controlador controlador = new Controlador();
+        RegistroPedidos registro = new RegistroPedidos(controlador);
+        boolean salir = false;
 
-        System.out.println("----------------- Software cocina econimica -----------------");
+        System.out.println("----------------- Software cocina economica -----------------");
         do{
             int opcion;
 
@@ -15,7 +16,8 @@ public class Main{
             System.out.println("[2] Mostrar menú completo");
             System.out.println("[3] Editar un platillo");
             System.out.println("[4] Eliminar un platillo");
-            System.out.println("[5] Salir");
+            System.out.println("[5] Registrar pedido (empleado de caja)");
+            System.out.println("[6] Salir");
             System.out.println("Opcion: ");
             opcion = scan.nextInt();
             scan.nextLine();
@@ -33,11 +35,12 @@ public class Main{
                     controlador.eliminarPlato();
                     break;
                 case 5:
+                    registro.menuRegistro();
+                    break;
+                case 6:
                     salir = true;
                 default:
             }
-
-
         }while(!salir);
 
 

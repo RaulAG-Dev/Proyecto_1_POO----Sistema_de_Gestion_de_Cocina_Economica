@@ -25,7 +25,7 @@ public class Controlador {
             if(plato.getNombre().equalsIgnoreCase(nombreBuscado)){
                 encontrado = true;
                 System.out.println("Elija una opción");
-                System.out.println("[1] Editar nomnbre");
+                System.out.println("[1] Editar nombre");
                 System.out.println("[2] Editar precio");
                 System.out.println("[3] Editar descripción");
                 System.out.println("[4] Eliminar platillo");
