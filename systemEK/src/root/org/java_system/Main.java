@@ -1,6 +1,6 @@
-package production.gestion_cocina;
+package root.org.java_system;
 
-public class Mian {
+public class Main {
     public static void main(String[] args){
 
     }
