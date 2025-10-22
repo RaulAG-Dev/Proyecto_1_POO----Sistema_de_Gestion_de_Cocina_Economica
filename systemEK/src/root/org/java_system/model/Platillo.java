@@ -34,6 +34,10 @@ public class Platillo extends ModelManagement {
     }
 
     public void setPrecio(float precio) {
+        if(precio < 0){
+            throw new IllegalArgumentException("Debe ser mayor a cero");
+        }
+
         this.precio = precio;
     }
 
@@ -52,4 +56,11 @@ public class Platillo extends ModelManagement {
     public void setIngredientes(List<Ingrediente> ingredientes) {
         this.ingredientes = ingredientes;
     }
+
+
+    @Override
+    public String toString(){
+        return id + nombre + descripcion + precio + ingredientes;
+    }
+
 }
