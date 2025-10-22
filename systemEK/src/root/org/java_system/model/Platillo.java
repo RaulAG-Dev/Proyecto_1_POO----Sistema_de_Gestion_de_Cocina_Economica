@@ -1,4 +1,4 @@
-package root.org.java_system.controller;
+package root.org.java_system.model;
 
 import java.util.List;
 
@@ -20,22 +20,6 @@ public class Platillo extends ModelManagement {
     }
 
     //getters y setters
-
-    public int getId(){
-        return id;
-    }
-
-    public void setId(){
-        this.id = id;
-    }
-
-    public String getNombre(){
-        return nombre;
-    }
-
-    public void setNombre(){
-        this.nombre = nombre;
-    }
 
     public String getDescripcion() {
         return descripcion;

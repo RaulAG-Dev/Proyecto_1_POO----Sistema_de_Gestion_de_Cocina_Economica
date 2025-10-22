@@ -1,4 +1,4 @@
-package root.org.java_system.controller;
+package root.org.java_system.model;
 
 public class Ingrediente extends ModelManagement {
 
@@ -23,21 +23,6 @@ public class Ingrediente extends ModelManagement {
     }
 
     //getters y setters
-    public int getId(){
-        return id;
-    }
-
-    public void setId(){
-        this.id = id;
-    }
-
-    public String getNombre(){
-        return nombre;
-    }
-
-    public void setNombre(){
-        this.nombre = nombre;
-    }
 
     public float getStockActual() {
         return stockActual;
