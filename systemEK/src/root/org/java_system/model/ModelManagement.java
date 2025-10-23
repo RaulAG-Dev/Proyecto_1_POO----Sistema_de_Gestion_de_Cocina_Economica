@@ -1,6 +1,8 @@
 package root.org.java_system.model;
 
-public class ModelManagement {
+import root.org.java_system.persistencia.Identificable;
+
+public class ModelManagement implements Identificable  {
     int id;
     String nombre;
 
