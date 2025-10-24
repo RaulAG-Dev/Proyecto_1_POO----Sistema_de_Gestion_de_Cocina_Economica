@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cocina.vistas.LoginController">
+
+    <children>
+
+        <Label layoutX="82.0" layoutY="26.0" prefHeight="106.0" prefWidth="465.0" text="Accede como empleado o administrador">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+
+        <TextField fx:id="usernameField" layoutX="200.0" layoutY="140.0" prefWidth="200.0" promptText="Por favor ingrese su usuario" text="kjbcjadbcakjj" />
+
+        <PasswordField fx:id="passwordField" layoutX="200.0" layoutY="190.0" prefWidth="200.0" promptText="Por favor ingrese su contraseña" text="jbckjbakjbsb" />
+
+        <Button fx:id="loginButton" layoutX="265.0" layoutY="250.0" onAction="#handleLoginAction" text="Ingresar" />
+
+    </children>
+
+</AnchorPane>
