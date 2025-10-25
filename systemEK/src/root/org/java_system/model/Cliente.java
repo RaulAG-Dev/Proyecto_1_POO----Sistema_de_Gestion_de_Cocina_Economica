@@ -14,6 +14,7 @@ public class Cliente extends ModelManagement {
         this.preferencias = preferencias;
     }
 
+    //Getters and setters
     public String getTelefono() {
         return telefono;
     }
