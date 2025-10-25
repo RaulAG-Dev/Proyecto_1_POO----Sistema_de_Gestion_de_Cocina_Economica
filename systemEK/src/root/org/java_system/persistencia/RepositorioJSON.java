@@ -113,6 +113,4 @@ public class RepositorioJSON<T extends Identificable> {
         return new ArrayList<>(datos);
     }
 
-
-
 }
