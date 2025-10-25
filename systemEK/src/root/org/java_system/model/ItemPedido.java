@@ -10,9 +10,10 @@ public class ItemPedido {
     public ItemPedido(Platillo platillo, int cantidad, float precioUnitario) {
         this.platillo = platillo;
         this.cantidad = cantidad;
-        this.precioUnitario = precioUnitario;
+        this.precioUnitario = platillo.getPrecio();
     }
 
+    //getter and setter
     public Platillo getPlatillo() {
         return platillo;
     }

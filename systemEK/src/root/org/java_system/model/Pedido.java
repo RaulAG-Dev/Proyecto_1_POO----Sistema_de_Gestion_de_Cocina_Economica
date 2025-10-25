@@ -21,6 +21,7 @@ public class Pedido {
         this.pagado = pagado;
     }
 
+    //Getters and setters
     public Date getFechaHora() {
         return fechaHora;
     }
